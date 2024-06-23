@@ -1,2 +1,2 @@
-# dns-over-tls
-Sample python code to implement DNS over TLS
+# DNS-Over-TLS (DOT)
+A python code which implements DOT.
