@@ -8,7 +8,7 @@ DNS queries are sent over a plaintext connection. DNS over TLS (DoT) is a way to
 1. *Start an instance of Flask listening on 0.0.0.0:8080 with /DoT endpoint*
 2. *Construct a DNS query from the provided domain in the query and record type (A record).*
 3. *Creates a default SSL context for establishing a secure connection.*
-4. *Connect to the DNS Server over TLS.*
+4. *Connect to the CloudFlare DNS Server over TLS.*
     - *Opens a TCP connection to the DNS server on the specified port (853 for DoT).*
     - *Wrap the socket with SSL/TLS.*
 5. *Send and Receive the DNS Query.*
